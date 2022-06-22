@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-22T23:58:44 EEST" name="Default Suite" finished-at="2022-06-22T23:59:01 EEST" duration-ms="17031">
+    <groups>
+    </groups>
+    <test started-at="2022-06-22T23:58:44 EEST" name="POM_Selenium_Java_Test_Project" finished-at="2022-06-22T23:59:01 EEST" duration-ms="17031">
+      <class name="pomScripts.SmokeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:44 EEST" name="setUp" finished-at="2022-06-22T23:58:47 EEST" duration-ms="3218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="likePost()[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:47 EEST" name="likePost" finished-at="2022-06-22T23:58:50 EEST" duration-ms="2489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- likePost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:50 EEST" name="tearDown" finished-at="2022-06-22T23:58:50 EEST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=likePost status=SUCCESS method=SmokeTests.likePost()[pri:0, instance:pomScripts.SmokeTests@159f197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:50 EEST" name="setUp" finished-at="2022-06-22T23:58:51 EEST" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logOut()[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:51 EEST" name="logOut" finished-at="2022-06-22T23:58:53 EEST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:53 EEST" name="tearDown" finished-at="2022-06-22T23:58:54 EEST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=SmokeTests.logOut()[pri:0, instance:pomScripts.SmokeTests@159f197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:54 EEST" name="setUp" finished-at="2022-06-22T23:58:55 EEST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:55 EEST" name="loginTest" finished-at="2022-06-22T23:58:57 EEST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:57 EEST" name="tearDown" finished-at="2022-06-22T23:58:57 EEST" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SmokeTests.loginTest()[pri:0, instance:pomScripts.SmokeTests@159f197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:57 EEST" name="setUp" finished-at="2022-06-22T23:58:58 EEST" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signInTest()[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:58:58 EEST" name="signInTest" finished-at="2022-06-22T23:59:01 EEST" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomScripts.SmokeTests@159f197]" started-at="2022-06-22T23:59:01 EEST" name="tearDown" finished-at="2022-06-22T23:59:01 EEST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInTest status=SUCCESS method=SmokeTests.signInTest()[pri:0, instance:pomScripts.SmokeTests@159f197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pomScripts.SmokeTests -->
+    </test> <!-- POM_Selenium_Java_Test_Project -->
+  </suite> <!-- Default Suite -->
+</testng-results>

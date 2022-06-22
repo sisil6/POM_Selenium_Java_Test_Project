@@ -1,0 +1,7 @@
+<suite name="Suite1" parallel="classes" thread-count="2" >
+    <test name="SmokeTests">
+        <classes>
+            <class name="pomScripts.SmokeTests" />
+        </classes>
+    </test>
+</suite>

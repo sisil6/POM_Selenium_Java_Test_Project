@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="POM_Selenium_Java_Test_Project"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8,869">
+    <properties></properties>
+
+
+
+            <testcase
+                name="likePost"
+                time="2,489"
+                classname="pomScripts.SmokeTests">
+            </testcase>
+            <testcase
+                name="loginTest"
+                time="1,797"
+                classname="pomScripts.SmokeTests">
+            </testcase>
+            <testcase
+                name="logOut"
+                time="2,300"
+                classname="pomScripts.SmokeTests">
+            </testcase>
+            <testcase
+                name="signInTest"
+                time="2,283"
+                classname="pomScripts.SmokeTests">
+            </testcase>
+</testsuite>
